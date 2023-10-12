@@ -1,0 +1,16 @@
+dataset_path: /home/derong/datasets/GeneBody
+subject: dilshod
+
+frames:
+  start: 212
+  stop: 362
+  step: 1
+
+output:
+  smpl_param: pred_smpl_param_1
+  annots: pred_annots_1.npy
+
+main_view: 0
+pred_views: 0 # only mono view is supported
+
+dataset_io_module: dataset_io.genebody.GeneBody

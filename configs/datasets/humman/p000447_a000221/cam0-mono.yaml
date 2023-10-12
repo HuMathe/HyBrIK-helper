@@ -1,0 +1,16 @@
+dataset_path: /home/derong/datasets/HuMMan
+subject: p000447_a000221
+
+frames:
+  start: 0
+  stop: 420
+  step: 6
+
+output:
+  smpl_params: pred_smpl_params
+  cameras: pred_cameras.json
+
+main_view: 0
+pred_views: 0 # only mono view is supported
+
+dataset_io_module: dataset_io.humman.HuMMan

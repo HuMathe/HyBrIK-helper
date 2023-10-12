@@ -1,0 +1,19 @@
+dataset_path: /home/derong/datasets/zju_mocap
+subject: CoreView_387
+
+frames:
+  start: 0
+  stop: 654
+  step: 1
+
+annots: annots.npy
+
+output:
+  params: pred_params
+  vertices: pred_vertices
+  annots: pred_annots.npy
+
+main_view: 0
+pred_views: [0, 6, 12, 18] # only generate test set
+
+dataset_io_module: dataset_io.zju_mocap.ZJUMoCap

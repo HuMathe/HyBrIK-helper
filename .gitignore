@@ -1,0 +1,9 @@
+/third_parties/smpl/models/*
+__pycache__
+test.*
+/pretrained_models
+/pretrained_models/
+/model_files
+/model_files/
+/hybrik
+*debug*
